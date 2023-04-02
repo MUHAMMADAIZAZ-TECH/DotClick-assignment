@@ -35,10 +35,12 @@ ul > li {
   cursor: pointer;
   color: #494949;
 }
+nav{
+  padding-bottom: 524px;
+}
 .last-section {
   display: flex;
   flex-direction: column;
-  margin-top: 524px;
   margin-left: 40px;
 }
 .logout-button {
@@ -80,7 +82,6 @@ ul > li {
 
 /* maincontainer */
 .main {
-  /* padding: 50px 100px; */
   position: absolute;
   left: 19%;
   width: 81%;

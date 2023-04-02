@@ -1,13 +1,14 @@
+import React from 'react';
 import './App.css';
 import MainContainer from './Components/Layout/MainContainer';
 import Sidebar from './Components/Layout/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment >
       <Sidebar/>
       <MainContainer/>
-    </div>
+    </React.Fragment>
   );
 }
 
